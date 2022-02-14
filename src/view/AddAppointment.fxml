@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="847.0" prefWidth="672.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddAppointmentController">
+    <children>
+        <Button layoutX="464.0" layoutY="780.0" mnemonicParsing="false" onAction="#onActionSaveBtn" prefHeight="32.0" prefWidth="70.0" text="Save" />
+        <Button layoutX="561.0" layoutY="780.0" mnemonicParsing="false" onAction="#onActionCancelBtn" prefHeight="32.0" prefWidth="70.0" text="Cancel" />
+        <TextField fx:id="aptIdTextField" editable="false" layoutX="261.0" layoutY="83.0" prefHeight="25.0" prefWidth="150.0" promptText="Disabled - Auto-Gen" />
+        <Label layoutX="137.0" layoutY="87.0" text="Appointment ID">
+            <font>
+                <Font name="Calibri" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="168.0" layoutY="139.0" prefHeight="20.0" prefWidth="33.0" text="Title">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="126.0" layoutY="217.0" />
+        <ComboBox fx:id="userIDComboBox" layoutX="265.0" layoutY="705.0" prefWidth="150.0" />
+        <Label layoutX="163.0" layoutY="705.0" prefHeight="25.0" prefWidth="53.0" text="User ID">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="35.0" layoutY="14.0" prefHeight="59.0" prefWidth="270.0" text="Add New Appointment">
+            <font>
+                <Font name="Calibri" size="26.0" />
+            </font>
+        </Label>
+        <TextField fx:id="titleTextField" layoutX="261.0" layoutY="136.0" prefHeight="25.0" prefWidth="238.0" />
+        <TextField fx:id="descriptionTextField" layoutX="261.0" layoutY="194.0" prefHeight="25.0" prefWidth="238.0" />
+        <TextField fx:id="locationTextField" layoutX="261.0" layoutY="250.0" prefHeight="25.0" prefWidth="238.0" />
+        <Label layoutX="151.0" layoutY="197.0" prefHeight="20.0" prefWidth="76.0" text="Description">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="156.0" layoutY="253.0" prefHeight="10.0" prefWidth="53.0" text="Location">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="168.0" layoutY="309.0" text="Type">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="147.0" layoutY="652.0" prefHeight="20.0" prefWidth="84.0" text="Customer ID">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+      <ComboBox fx:id="contactIDComboBox" layoutX="265.0" layoutY="592.0" prefWidth="150.0" />
+      <TextField fx:id="typeTextField" layoutX="261.0" layoutY="306.0" prefHeight="25.0" prefWidth="238.0" />
+      <TextField fx:id="startTimeTextField" layoutX="265.0" layoutY="419.0" prefHeight="25.0" prefWidth="246.0" promptText="HH:MM:SS PM">
+         <opaqueInsets>
+            <Insets top="2.0" />
+         </opaqueInsets></TextField>
+      <TextField fx:id="endTimeTextField" layoutX="265.0" layoutY="538.0" prefHeight="25.0" prefWidth="174.0" promptText="HH:MM:SS PM" />
+      <DatePicker fx:id="startDateSelector" layoutX="265.0" layoutY="361.0" />
+      <ComboBox fx:id="customerIDComboBox" layoutX="265.0" layoutY="649.0" prefWidth="150.0" />
+      <DatePicker fx:id="endDateSelector" layoutX="265.0" layoutY="477.0" />
+      <Label layoutX="152.0" layoutY="364.0" prefHeight="20.0" prefWidth="62.0" text="Start Date">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="422.0" prefHeight="20.0" prefWidth="70.0" text="Start Time">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="480.0" prefHeight="20.0" prefWidth="62.0" text="End Date">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="541.0" prefHeight="20.0" prefWidth="62.0" text="End Time">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="595.0" prefHeight="20.0" prefWidth="53.0" text="Contact ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
