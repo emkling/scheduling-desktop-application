@@ -1,4 +1,4 @@
-# scheduling-desktop-application
+# Scheduling-Desktop-Application
 JavaFX application that connects with an external database to handle scheduling tasks for a fictional company
 
 ## Description                     
