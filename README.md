@@ -27,7 +27,7 @@ are not made out of business hours or during another appointment. Reminders are 
 - Database matching parameters in the "JDBC" class located in the utils folder
 - my-sql-connector to connect application with database
 - JavaFX
-- Login username: test, password: test
+- Login username: 'test', password: 'test'
 - Start of program: src/Main/main.java 
 
 ## Tools Used
@@ -36,3 +36,4 @@ are not made out of business hours or during another appointment. Reminders are 
 - Java JDK 11
 - MySQL
 - MySQL driver connector: 4, Version 8.0.27
+- Scenebuilder
